@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 5px;
+}
+
+.container-img{
+    width: 20%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+}
+.foto-perfil{
+    width: 100%;
+    height: 100%;
+}
+
+.container-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 20px;
+}
+.texto-acolhimento{
+    font-size: 2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ///////////////////////// */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.container-menu-0{
+    width: 90%;
+    height: 20%;
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-0{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+.texto-apresentacao{
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+}
+
+.container-menu-do-meio{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    /* max-height: 70vh; */
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+    gap:50px;
+}
+
+.menu-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border: solid black 3px;
+    padding: 5px;
+    gap: 5px;
+
+}
+
+.texto-review{
+    width: 100%;
+    margin-left: 10px;
+
+}
+
+
+.experiencia{
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+.contatos{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border: solid black 3px;
+    /* padding: 5px; */
+    
+}
+
+.educacao{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    gap: 5px;
+    text-align: center;
+}
+
+.texto-review
+.contatos{
+    margin-top: 30px;
+}
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 80%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* ///////////////////////////////////// */
+
+#footer{
+    background-color: #111537;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
